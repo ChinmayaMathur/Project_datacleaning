@@ -1,0 +1,116 @@
+---
+title: "codebook for project"
+author: "Chinmaya"
+date: "July 12, 2020"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+the variables in this dataset are (all features range from -1 to 1) :
+
+- tBodyAcc-mean()-X :  mean of values from body acceleration for X dimension
+- tBodyAcc-mean()-Y : mean of values from body acceleration for Y dimension
+- tBodyAcc-mean()-Z : mean of values from body acceleration for Z dimension
+- tBodyAcc-std()-X : standard deviation of values from body acceleration for X dimension
+- tBodyAcc-std()-Y : standard deviation of values from body acceleration for Y dimension
+- tBodyAcc-std()-Z : standard deviation of values from body acceleration for Z dimension
+
+- tGravityAcc-mean()-X : mean of values from gravity acceleration for X dimension
+- tGravityAcc-mean()-Y : mean of values from gravity acceleration for Y dimension
+- tGravityAcc-mean()-Z : mean of values from gravity acceleration for Z dimension
+- tGravityAcc-std()-X : standard deviation of values from gravity acceleration for X dimension
+- tGravityAcc-std()-Y : standard deviation of values from gravity acceleration for Y dimension
+- tGravityAcc-std()-Z : standard deviation of values from gravity acceleration for Z dimension
+
+- tBodyAccJerk-mean()-X : mean of values from body jerk acceleration for X dimension
+- tBodyAccJerk-mean()-Y : mean of values from body jerk acceleration for Ydimension
+- tBodyAccJerk-mean()-Z : mean of values from body jerk acceleration for Z dimension
+- tBodyAccJerk-std()-X : standard deviation of values from body jerk acceleration for X dimension
+- tBodyAccJerk-std()-Y : standard deviation of values from body jerk acceleration for Y dimension
+- tBodyAccJerk-std()-Z : standard deviation of values from body jerk acceleration for Z dimension
+
+- tBodyGyro-mean()-X : mean of values from gyroscope for X dimension
+- tBodyGyro-mean()-Y : mean of values from gyroscope for Y dimension
+- tBodyGyro-mean()-Z : mean of values from gyroscope for Z dimension
+- tBodyGyro-std()-X : standard deviation of values from gyroscope for X dimension
+- tBodyGyro-std()-Y : standard deviation of values from gyroscope for Y dimension
+- tBodyGyro-std()-Z : standard deviation of values from gyroscope for Z dimension
+
+- tBodyGyroJerk-mean()-X : mean of values of jerk from gyroscope for X dimension
+- tBodyGyroJerk-mean()-Y : mean of values of jerk from gyroscope for Y dimension
+- tBodyGyroJerk-mean()-Z : mean of values of jerk from gyroscope for Z dimension
+- tBodyGyroJerk-std()-X : standard deviation of values of jerk from gyroscopefor X dimension
+- tBodyGyroJerk-std()-Y : standard deviation of values of jerk from gyroscope for Y dimension
+- tBodyGyroJerk-std()-Z : standard deviation of values of jerk from gyroscope for Z dimension
+
+- tBodyAccMag-mean() : mean of values of body accelaration magnitude
+- tBodyAccMag-std() : standard deviation ofvalues of body accelaration magnitude
+
+- tGravityAccMag-mean() : mean of values of gravity accelaration magnitude
+- tGravityAccMag-std() : standard deviation of values of gravity accelaration magnitude
+
+- tBodyAccJerkMag-mean() : mean of values of body accelaration jerk magnitude
+- tBodyAccJerkMag-std() : standard deviation of values of body accelaration jerk magnitude
+
+- tBodyGyroMag-mean() : mean of values of body gyroscope magnitude
+- tBodyGyroMag-std() : standard deviation of values of body gyroscope magnitude
+
+- tBodyGyroJerkMag-mean() : mean of values of body gyroscope jerk magnitude
+- tBodyGyroJerkMag-std() : standard deviation of values of body gyroscope jerk magnitude
+
+- fBodyAcc-mean()-X : mean of values from FFT(Fast Fourier Transform) body acceleration for X dimension
+- fBodyAcc-mean()-Y : mean of values from FFT(Fast Fourier Transform) body acceleration for Y dimension
+- fBodyAcc-mean()-Z : mean of values from FFT(Fast Fourier Transform) body acceleration for Z dimension
+- fBodyAcc-std()-X : standard deviation of values from FFT(Fast Fourier Transform) body acceleration for X dimension
+- fBodyAcc-std()-Y : standard deviation of values from FFT(Fast Fourier Transform) body acceleration for Y dimension
+- fBodyAcc-std()-Z : standard deviation of values from FFT(Fast Fourier Transform) body acceleration for Z dimension
+
+- fBodyAccJerk-mean()-X : mean of values from FFT(Fast Fourier Transform) body acceleration jerk for X dimension
+- fBodyAccJerk-mean()-Y :  mean of values from FFT(Fast Fourier Transform) body acceleration jerk for Y dimension
+- fBodyAccJerk-mean()-Z :  mean of values from FFT(Fast Fourier Transform) body acceleration jerk for Z dimension
+- fBodyAccJerk-std()-X : standard deviation of values from FFT(Fast Fourier Transform) body acceleration jerk for X dimension
+- fBodyAccJerk-std()-Y : standard deviation of values from FFT(Fast Fourier Transform) body acceleration jerk for Y dimension
+- fBodyAccJerk-std()-Z : standard deviation of values from FFT(Fast Fourier Transform) body acceleration jerk for Z dimension
+
+- fBodyGyro-mean()-X : mean of values from FFT(Fast Fourier Transform) body gyroscope for X dimension
+- fBodyGyro-mean()-Y : mean of values from FFT(Fast Fourier Transform) body gyroscope for Y dimension
+- fBodyGyro-mean()-Z : mean of values from FFT(Fast Fourier Transform) body gyroscope for Z dimension
+- fBodyGyro-std()-X : standard deviation of values from FFT(Fast Fourier Transform) body gyroscope for X dimension
+- fBodyGyro-std()-Y : standard deviation of values from FFT(Fast Fourier Transform) body gyroscope for Y dimension
+- fBodyGyro-std()-Z : standard deviation of values from FFT(Fast Fourier Transform) body gyroscope for Z dimension
+
+- fBodyAccMag-mean() : mean of values from FFT(Fast Fourier Transform) body acceleration magnitude
+- fBodyAccMag-std() : standard deviation of values from FFT(Fast Fourier Transform) body acceleration magnitude 
+
+- fBodyBodyAccJerkMag-mean() : mean of values from FFT(Fast Fourier Transform) body acceleration jerk magnitude
+- fBodyBodyAccJerkMag-std() : standard deviation of values from FFT(Fast Fourier Transform) body acceleration jerk magnitude 
+
+- fBodyBodyGyroMag-mean() : mean of values from FFT(Fast Fourier Transform) body gyroscope magnitude 
+
+- fBodyBodyGyroMag-std() : standard deviation of values from FFT(Fast Fourier Transform) body gyroscope magnitude 
+
+- fBodyBodyGyroJerkMag-mean() : mean from FFT(Fast Fourier Transform) body gyroscope jerk magnitude 
+
+- fBodyBodyGyroJerkMag-std() : standard deviation from FFT(Fast Fourier Transform) body gyroscope jerk magnitude 
+
+
+- activity 
+
+     1: Walking
+     2: Walking_upstairs
+     3: Walking_downstairs
+     4: Sitting
+     5: Standing
+     6: Laying
+     
+- subject : the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+    
